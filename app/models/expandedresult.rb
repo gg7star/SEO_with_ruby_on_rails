@@ -1,0 +1,2 @@
+class Expandedresult < ApplicationRecord
+end

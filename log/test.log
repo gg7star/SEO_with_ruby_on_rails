@@ -1,0 +1,41 @@
+  [1m[35m (1.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS `sentiment_test`[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE DATABASE `sentiment_test` DEFAULT CHARACTER SET `utf8mb4` COLLATE `utf8mb4_bin`[0m
+  [1m[35m (13.9ms)[0m  [1m[35mCREATE TABLE `bookmarks` (`id` int unsigned AUTO_INCREMENT PRIMARY KEY, `user_id` bigint NOT NULL, `result_id` bigint NOT NULL, `ticker` varchar(255) NOT NULL, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci[0m
+  [1m[35m (9.6ms)[0m  [1m[35mCREATE TABLE `expandedresults` (`id` int AUTO_INCREMENT PRIMARY KEY, `ticker` varchar(255), `country` varchar(255), `pubDate` datetime, `url` varchar(255), `title` varchar(255), `rawText` longtext, `sentimentScore` float(53), `targetedScore` float(53), `targeted_type` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB DEFAULT CHARSET=utf8[0m
+  [1m[35m (11.3ms)[0m  [1m[35mCREATE TABLE `migrations` (`id` int unsigned AUTO_INCREMENT PRIMARY KEY, `migration` varchar(255) NOT NULL, `batch` int NOT NULL) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci[0m
+  [1m[35m (10.3ms)[0m  [1m[35mCREATE TABLE `news` (`id` int AUTO_INCREMENT PRIMARY KEY, `ticker` text, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `pubDate` datetime, `url` varchar(255), `subject` text, `rawText` longtext, `keyword_score` float(53)) ENGINE=InnoDB DEFAULT CHARSET=utf8[0m
+  [1m[35m (28.4ms)[0m  [1m[35mCREATE TABLE `password_resets` (`email` varchar(255) NOT NULL, `token` varchar(255) NOT NULL, `created_at` datetime,  INDEX `password_resets_email_index` USING btree (`email`),  INDEX `password_resets_token_index` USING btree (`token`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci[0m
+  [1m[35m (6.4ms)[0m  [1m[35mCREATE TABLE `results` (`id` int unsigned AUTO_INCREMENT PRIMARY KEY, `ticker` varchar(255) NOT NULL, `pubDate` datetime NOT NULL, `country` varchar(255) COLLATE utf8_general_ci, `url` varchar(1000) NOT NULL, `title` varchar(1000), `rawText` longtext, `cleanText` text, `sentimentScore` float(53), `targetedScore` float(53), `targeted_type` varchar(255), `sourceType` varchar(255), `created_at` datetime, `updated_at` datetime,  INDEX `results_pubdate_index` USING btree (`pubDate`),  INDEX `results_ticker_index` USING btree (`ticker`), fulltext INDEX `full`  (`title`, `rawText`)) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci[0m
+  [1m[35m (23.5ms)[0m  [1m[35mCREATE TABLE `stocks` (`id` int unsigned AUTO_INCREMENT PRIMARY KEY, `ticker` varchar(255) NOT NULL, `companyName` varchar(255) NOT NULL, `searchString` longtext NOT NULL, `lastRunDate` datetime NOT NULL, `lastMessageTime` datetime NOT NULL, `created_at` datetime, `updated_at` datetime, `pubDate` float(24), `url` varchar(255), `title` varchar(255), `rawText` longtext,  INDEX `stocks_ticker_index` USING btree (`ticker`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci[0m
+  [1m[35m (5.6ms)[0m  [1m[35mCREATE TABLE `targets` (`id` int unsigned AUTO_INCREMENT PRIMARY KEY, `ticker` varchar(255) NOT NULL, `url` varchar(1000) NOT NULL, `targetedKeywords` varchar(255) COLLATE utf8_general_ci, `pubDate` datetime, `sentimentScore` float(24), `targetedScore` varchar(255), `targeted_type` varchar(255), `MovAvg` float(24), `created_at` datetime, `updated_at` datetime,  INDEX `results_ticker_index` USING btree (`ticker`)) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci[0m
+  [1m[35m (18.3ms)[0m  [1m[35mCREATE TABLE `temp` (`ttype` varchar(45)) ENGINE=InnoDB DEFAULT CHARSET=utf8[0m
+  [1m[35m (11.3ms)[0m  [1m[35mCREATE TABLE `users` (`id` int unsigned AUTO_INCREMENT PRIMARY KEY, `name` varchar(255) NOT NULL, `email` varchar(255) NOT NULL, `password` varchar(255) NOT NULL, `is_admin` tinyint(1) DEFAULT 0 NOT NULL, `allowed_demo` tinyint DEFAULT 0 NOT NULL COMMENT '0=>No, 1=>Yes', `remember_token` varchar(100), `created_at` datetime, `updated_at` datetime, UNIQUE INDEX `users_email_unique` USING btree (`email`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci[0m
+  [1m[35m (10.5ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) COLLATE utf8_bin PRIMARY KEY) ENGINE=InnoDB[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (0.8ms)[0m  [1m[32mINSERT INTO `schema_migrations` (version) VALUES ('20170315230249')[0m
+  [1m[35m (1.1ms)[0m  [1m[32mINSERT INTO schema_migrations (version) VALUES
+('20170220200020'),
+('20170223001057'),
+('20170223001740'),
+('20170223001814'),
+('20170301192045'),
+('20170301192744'),
+('20170302190214'),
+('20170309183905'),
+('20170309184337'),
+('20170309184743'),
+('20170309185126'),
+('20170315202219'),
+('20170315204320');
+
+[0m
+  [1m[35m (10.1ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) COLLATE utf8_bin PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'test', '2017-03-27 07:57:41', '2017-03-27 07:57:41')[0m
+  [1m[35m (4.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m

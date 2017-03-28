@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ticker: MyString
+  country: MyString
+  pubDate: 2017-03-15 19:02:49
+  url: MyString
+  title: MyString
+  rawText: MyText
+  sentimentScore: 1.5
+  targetedScore: 1.5
+  targeted_type: MyString
+
+two:
+  ticker: MyString
+  country: MyString
+  pubDate: 2017-03-15 19:02:49
+  url: MyString
+  title: MyString
+  rawText: MyText
+  sentimentScore: 1.5
+  targetedScore: 1.5
+  targeted_type: MyString

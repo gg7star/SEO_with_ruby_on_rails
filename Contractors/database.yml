@@ -1,0 +1,8 @@
+development:
+  adapter: mysql2
+  database: br_news_dev
+  username: root
+  password: root
+  host: 127.0.0.1
+  encoding: utf8mb4
+  collation: utf8mb4_bin

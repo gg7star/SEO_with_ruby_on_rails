@@ -1,0 +1,196 @@
+Ticker?
+
+Input search terms
+
+Input date from
+
+Input date to
+@offset = 0
+Total Found: 
+147155
+100
+offset: 100
+0
+@offset = 100
+Total Found: 
+147155
+100
+offset: 200
+0
+@offset = 200
+Total Found: 
+147155
+100
+offset: 300
+0
+@offset = 300
+Total Found: 
+147155
+100
+offset: 400
+0
+@offset = 400
+Total Found: 
+147155
+100
+offset: 500
+0
+@offset = 500
+Total Found: 
+147155
+100
+offset: 600
+0
+@offset = 600
+Total Found: 
+147155
+100
+offset: 700
+0
+@offset = 700
+Total Found: 
+147155
+100
+offset: 800
+0
+@offset = 800
+Total Found: 
+147155
+100
+offset: 900
+0
+@offset = 900
+Total Found: 
+147155
+100
+offset: 1000
+0
+@offset = 1000
+Total Found: 
+147155
+100
+offset: 1100
+0
+@offset = 1100
+Total Found: 
+147155
+100
+offset: 1200
+0
+@offset = 1200
+Total Found: 
+147155
+100
+offset: 1300
+0
+@offset = 1300
+Total Found: 
+147155
+100
+rake aborted!
+ActiveRecord::StatementInvalid: Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\x89\x0A9...' for column 'rawText' at row 1: INSERT INTO `news` (`ticker`, `created_at`, `updated_at`, `pubDate`, `url`, `subject`, `rawText`) VALUES ('NFLX', '2017-03-19 04:50:05', '2017-03-19 04:50:05', '2017-03-03 19:51:37', 'http://www.business2community.com/twitter/tongue-cheek-twitter-dictionary-started-trending-01786060', 'Image: Tongue-in-cheek Twitter: How A Dictionary Started Trending', 'Twitter tends to be the platform of choice for literary types, so it’s not unbelievable that its user base would fall in love with an account run by a 190-year-old dictionary.\nMerriam-Webster, based in Springfield in the US, has started trending online and this is largely thanks to its irreverent tweets and sense of humour.\nIf you want to improve your social media presence, especially on Twitter, there is a lot you can take from @merriamwebster . Let’s get started.\nMerriam-Webster Takes on Trump\nMerriam-Webster is best known for sometimes cheeky, and always smart, responses to the way politicians and celebrities misuse the English language. Possibly their best known related comment was a reaction to Donald Trump speaking on the topic of immigration in October 2016: \'We have some bad hombres here, and we’re going to get them out,\' he said.\nMerriam-Webster jumped in quickly, with a tongue-in-cheek language primer explaining what a \'hombre\' was. It worked, getting an impressive 2,500+ retweets.\nIn another Trump-related incident, the now President of the United States used the word \'bigly\' in a debate speech. Merriam-Webster were quick to point out that the word was used correctly (it means \'pompously\') but that it was archaic and possibly not the best turn of phrase. \n\nNo Stranger to the Web\nMerriam-Webster has had an online presence since 1996. In a brilliant open-source-friendly PR move, they decided to make their bestselling Merriam-Webster Collegiate Edition free on their website. This started a growth trend that now sees their page garnering in the region of 100 million views a month. Being no stranger to smart online moves, the company has spent the past year growing a very devoted following on Facebook and Twitter.\nAt last count, Merriam-Webster’s official Twitter feed, @MerriamWebster, had 302,000 followers. This is a dramatic increase of over 80,000 followers a year ago before they began focusing more closely on their social media campaigns.\nLauren Naturale, who manages social media for Merriam-Webster and handles their Twitter account from their office in New York, said that the response to their new strategy has been overwhelmingly positive. What the speed of Twitter allows them to do it respond almost immediately to queries about language use and grammar when their followers are looking for an expert opinion.\n\'Our Twitter Reflects Our World\'\nNaturale told Vox that Merriam-Webster’s Twitter account reflects the personalities of the people she works with: \'wildly enthusiastic about language, jokey, friendly, but nobody’s fool. There’s also a kind of egalitarianism-without-anti-intellectualism which has been part of Merriam-Webster’s identity since before Twitter was invented… Smart people are curious about the world, and smart people are curious about the other people who live in that world. Our Twitter reflects that attitude.\'\nYou know you’re doing something right if your strategy has been picked up on by media outlets like NBC News, USA Today, and the Washington Post, as Naturale’s has.\nInternet-based publication Vox has called Merriam-Webster the \'sassiest Twitter account of the Trump era\'. The dictionary has been accused by some for \'trolling\' the Trump administration (intentionally antagonizing someone online), an allegation they deny. Perhaps Trump has just positioned himself as an easy target.\nA fact is a piece of information presented as having objective reality. https://t.co/gCKRZZm23c\n- Merriam-Webster (@MerriamWebster) January 22, 2017\nBut Do You Want Or Need to Trend?\nNo. The true measure of success in social media is reaching your target market successfully and having the metrics to prove that you are doing this. You can, however, always improve on your strategy. According to Twitter:\n\'Trends are determined by an algorithm and, by default, are tailored for you based on who you follow, your interests, and your location. This algorithm identifies topics that are popular now, rather than topics that have been popular for a while or on a daily basis, to help you discover the hottest emerging topics of discussion on Twitter.\'\nWhat this really means is that the very nature of a trend is that it is a passing phenomenon. Getting an account trending can have phenomenal short-term benefits, but it’s the daily work put into building relationships with consumers and engaging over time that really counts.\nPersonality Is Everything\nYou don’t need to be dedicated to becoming a trending brand on social media to get better at what you do. The best way to create a successful Twitter account is by reflecting who you really are as a brand.\nAfter that, the (right) followers will come. Creating an enormously successful Twitter brand for a dictionary is an impressive feat, and it couldn’t have been done without a fine-tuned sense of Merriam-Webster’s brand personality. The same applies to your social media presence. What is your brand’s personality?\nAnswering the questions below will help you think about this. Share them with your content and social teams to get a broader view of how your brand is perceived – and where you might want to change that. You might even consider a quick survey – whether in-house, including upper management, and/or directly asking the consumer.\nWhen you are thinking about your brand’s personality, consider whether it is:\nFunny\nSerious\nSmart\nOld and established\nYoung and fresh\nExciting\nAuthoritative\nEnergetic\nWitty\n(the list is endless)\nDon’t be afraid to innovate. If your brand has a reputation for being serious, consider whether an injection of humour might be refreshing to your online audiences and boost them. This worked for Merriam-Webster.\nNow For Content\nYour brand’s personality will affect your tone and your content. They both work together to with design to establish your persona.\nTaking a look at @merriamwebster’s content, it’s fairly easy to see what their content calendar – their plan for posts coming up in the future – looks like.\nRecommended for You\nWebcast, March 15th: How to Scale Upmarket with Enterprise Field Sales\nTheir content pillars (the key points to organise their content across channels) look roughly like this:\nThe word of the day\nInformation on words that have just been added to the dictionary\nLinks to blog content they’ve created\nLinks to news that is relevant to their industry\nCarefully chosen retweets\nTime-sensitive and topical content\nAn emphasis on gifs and video, as well as emojis\nDepending on your brand, product, or service, your content calendar might look quite similar to this – or quite different. As long as it works for you and you have the metrics to prove it.\nBecause Merriam-Webster is a dictionary, it is only natural that their focus is on words. They can assume that their audience is already very interested in language, and will share content they in turn find interesting with their friends.\nBreaking Down Merriam-Webster’s Success\n#1 – The *Interesting* Word of the Day\nMerriam-Webster’s social media accounts focus a lot on sharing new and interesting \'words of the day\'. They make a point of sharing \'new words\' that are making their way into everyday language via users on the internet.\nThis makes their \'word of the day\' shares more relevant and interesting. Contrast the sharing of their word \'facepalm\' below with the word \'acuity\' as taken from a website created to share new words with readers in a similar way to many dictionary websites and social accounts do.\nThis particular site’s most recent entry reads along the lines of: \'Acuity: acuity n. Sharpness or keenness of thought, vision, or hearing.\' This is an example of a word that is not at all shareworthy. It is, simply put, uninteresting.\nYou’ll note Merriam-Webster’s definition of \'facepalm\', a word many people do wonder how to spell correctly, includes a gif. Gifs get far more traction than static images and far more views. They’ve become a necessity, not a luxury, as with emojis (in many cases, at least).\n@merriamwebster knows this and they’re at the forefront when it comes to using Giphy. \n\n#2 – Fresh News Meets Fresh Design\nWord lovers appreciate little more than new words being added to a dictionary. When announcing news, as shared in the article announced using this post, Merriam-Webster wasn’t afraid to have fun.\nTheir use of emojis combined with a reference to Dr Seuss (also newly in the dictionary via the word \'Seussian\') help to generate excitement around the event. The post is relatable to its audience, and was pinned to the top of their profile for emphasis. It gained 1,000 shares – one for each new word added to the dictionary. \n\n#3 – Sharing Relevant Information\nAll brands want to be seen as thought leaders, and one of the best ways to do this is to be the first to share the news your audience wants to know. The importance of retweets can’t be understated. One of examples of a successful retweet on @merriamwebster comes from a strategic relationship they have with the Hollywood Reporter (@THR), which has 2.43 million followers of its own.\nCreating strong relationships with key accounts is a crucially important strategy in creating social media success. Doing this successfully has helped get the Merriam-Webster Dictionary Twitter account featured in some very influential publications, including Vox and the Washington Post. \n\n#4 – Smart and Timely Responses\nWhen it comes to smart and snappy responses, this says it all. An emoji, a quick response to someone playing on words, and a sense of humour earned Merriam-Webster 116 retweets. The accounts responses to Trump and other celebrity language gaffes took perfect timing and careful angling. \n\nYou Can Do It Too\nYour brand’s personality will affect your tone and your content. They both work together to with design to establish your persona.\nTaking a look at @merriamwebster’s content, it’s fairly easy to see what their content calendar – their plan for posts coming up in the future – looks like.\nIf you want to improve your social media presence, especially on Twitter, there is a lot you can take from @merriamwebster. Start by following these nine steps and you’ll be off to a winning start.\n1.Remember to define your brand’s personality and tone\n2.Based on this, create a content plan and measure its success at least monthly\n3.Don’t be afraid to have a sense of humour – this makes you more approachable\n4.Use emojis, gifs, videos, and memes to keep things interesting\n5.Share relevant news with your audience\n6.Make sure you have plenty of interesting content on your blog to share with your audiences across platforms\n7.Read, watch, and listen to the news constantly so that you can contribute to important conversations – and even lead them\n8.Don’t be afraid to raise attention to current events if they’re relevant to your audience – just have your communications team on hand in case things get too controversial 😉\n9.Finally, and most importantly, get a team of professionals behind you to help you interpret your performance so that you know you’re always on track.\nMetrics are (almost) everything.\nDiscuss This Article\n...')
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0/gems/mysql2-0.4.5/lib/mysql2/client.rb:120:in `_query'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0/gems/mysql2-0.4.5/lib/mysql2/client.rb:120:in `block in query'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0/gems/mysql2-0.4.5/lib/mysql2/client.rb:119:in `handle_interrupt'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0/gems/mysql2-0.4.5/lib/mysql2/client.rb:119:in `query'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:218:in `block in execute'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:589:in `block in log'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0/gems/activesupport-5.0.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:583:in `log'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:218:in `execute'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/mysql/database_statements.rb:31:in `execute'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:225:in `execute_and_free'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/mysql/database_statements.rb:36:in `exec_query'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:92:in `exec_insert'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:124:in `insert'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/query_cache.rb:17:in `insert'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/relation.rb:65:in `insert'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/persistence.rb:560:in `_create_record'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/counter_cache.rb:128:in `_create_record'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/locking/optimistic.rb:75:in `_create_record'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/attribute_methods/dirty.rb:123:in `_create_record'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/callbacks.rb:302:in `block in _create_record'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0/gems/activesupport-5.0.1/lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0/gems/activesupport-5.0.1/lib/active_support/callbacks.rb:750:in `_run_create_callbacks'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/callbacks.rb:302:in `_create_record'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/timestamp.rb:68:in `_create_record'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/persistence.rb:540:in `create_or_update'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/callbacks.rb:298:in `block in create_or_update'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0/gems/activesupport-5.0.1/lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0/gems/activesupport-5.0.1/lib/active_support/callbacks.rb:750:in `_run_save_callbacks'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/callbacks.rb:298:in `create_or_update'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/persistence.rb:125:in `save'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/validations.rb:44:in `save'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/attribute_methods/dirty.rb:22:in `save'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/transactions.rb:319:in `block (2 levels) in save'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/transactions.rb:395:in `block in with_transaction_returning_status'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `block in transaction'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/transaction.rb:189:in `within_new_transaction'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `transaction'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/transactions.rb:211:in `transaction'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/transactions.rb:392:in `with_transaction_returning_status'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/transactions.rb:319:in `block in save'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/transactions.rb:334:in `rollback_active_record_state!'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/transactions.rb:318:in `save'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/suppressor.rb:41:in `save'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/persistence.rb:34:in `create'
+/Users/joesanpietro/RORFiles/sentiment/lib/tasks/br_news.rake:56:in `block (2 levels) in <top (required)>'
+/Users/joesanpietro/RORFiles/sentiment/lib/tasks/br_news.rake:55:in `each'
+/Users/joesanpietro/RORFiles/sentiment/lib/tasks/br_news.rake:55:in `block in <top (required)>'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/rake-12.0.0/exe/rake:27:in `<top (required)>'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `<main>'
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\x89\x0A9...' for column 'rawText' at row 1
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0/gems/mysql2-0.4.5/lib/mysql2/client.rb:120:in `_query'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0/gems/mysql2-0.4.5/lib/mysql2/client.rb:120:in `block in query'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0/gems/mysql2-0.4.5/lib/mysql2/client.rb:119:in `handle_interrupt'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0/gems/mysql2-0.4.5/lib/mysql2/client.rb:119:in `query'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:218:in `block in execute'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:589:in `block in log'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0/gems/activesupport-5.0.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:583:in `log'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:218:in `execute'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/mysql/database_statements.rb:31:in `execute'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:225:in `execute_and_free'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/mysql/database_statements.rb:36:in `exec_query'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:92:in `exec_insert'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:124:in `insert'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/query_cache.rb:17:in `insert'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/relation.rb:65:in `insert'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/persistence.rb:560:in `_create_record'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/counter_cache.rb:128:in `_create_record'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/locking/optimistic.rb:75:in `_create_record'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/attribute_methods/dirty.rb:123:in `_create_record'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/callbacks.rb:302:in `block in _create_record'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0/gems/activesupport-5.0.1/lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0/gems/activesupport-5.0.1/lib/active_support/callbacks.rb:750:in `_run_create_callbacks'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/callbacks.rb:302:in `_create_record'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/timestamp.rb:68:in `_create_record'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/persistence.rb:540:in `create_or_update'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/callbacks.rb:298:in `block in create_or_update'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0/gems/activesupport-5.0.1/lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0/gems/activesupport-5.0.1/lib/active_support/callbacks.rb:750:in `_run_save_callbacks'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/callbacks.rb:298:in `create_or_update'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/persistence.rb:125:in `save'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/validations.rb:44:in `save'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/attribute_methods/dirty.rb:22:in `save'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/transactions.rb:319:in `block (2 levels) in save'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/transactions.rb:395:in `block in with_transaction_returning_status'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `block in transaction'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/transaction.rb:189:in `within_new_transaction'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `transaction'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/transactions.rb:211:in `transaction'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/transactions.rb:392:in `with_transaction_returning_status'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/transactions.rb:319:in `block in save'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/transactions.rb:334:in `rollback_active_record_state!'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/transactions.rb:318:in `save'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/suppressor.rb:41:in `save'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/activerecord-5.0.1/lib/active_record/persistence.rb:34:in `create'
+/Users/joesanpietro/RORFiles/sentiment/lib/tasks/br_news.rake:56:in `block (2 levels) in <top (required)>'
+/Users/joesanpietro/RORFiles/sentiment/lib/tasks/br_news.rake:55:in `each'
+/Users/joesanpietro/RORFiles/sentiment/lib/tasks/br_news.rake:55:in `block in <top (required)>'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0@global/gems/rake-12.0.0/exe/rake:27:in `<top (required)>'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/joesanpietro/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => br_news
+(See full trace by running task with --trace)

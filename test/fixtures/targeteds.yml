@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ticker: MyString
+  pubDate: 2017-02-21 01:26:01
+  url: MyString
+  sentimentScore: 1.5
+  targetedScore: MyString
+  targeted_type: MyString
+  created_at: 2017-02-21 01:26:01
+  updated_at: 2017-02-21 01:26:01
+
+two:
+  ticker: MyString
+  pubDate: 2017-02-21 01:26:01
+  url: MyString
+  sentimentScore: 1.5
+  targetedScore: MyString
+  targeted_type: MyString
+  created_at: 2017-02-21 01:26:01
+  updated_at: 2017-02-21 01:26:01
