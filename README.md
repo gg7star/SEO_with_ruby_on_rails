@@ -22,3 +22,14 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## Create database
+* > rake db:create
+* > rake db:schema:load
+* > rake db:migration
+
+## Run Rails Server
+* > rails server
+
+## Run a rake task to get data from BroadReader API and store them into MySQL database, using 'rake' command.
+* > rake br_news
