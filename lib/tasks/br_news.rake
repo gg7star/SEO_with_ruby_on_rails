@@ -2,25 +2,29 @@ task br_news: :environment do
 
   puts''
   puts "Ticker?"
-  @ticker = $stdin.gets.chomp.upcase
+  # @ticker = $stdin.gets.chomp.upcase
+  @ticker = "panda"
 
   puts''
   puts "Input search terms"
-  @terms = $stdin.gets.chomp
+  # @terms = $stdin.gets.chomp
+  @terms = "panda"
 
   puts''
   puts "Input date from"
-  @datefrom = Date.parse($stdin.gets.chomp).to_time.to_i
+  # @datefrom = Date.parse($stdin.gets.chomp).to_time.to_i
+  @datefrom = 1483225200
   puts "@datefrom = #{@datefrom}"
 
   puts''
   puts "Input date to"
-  @dateto = Date.parse($stdin.gets.chomp).to_time.to_i
+  # @dateto = Date.parse($stdin.gets.chomp).to_time.to_i
+  @dateto = 1488495600
   puts "@dateto = #{@dateto}"
 
   # Initialize
-  @max_matches = 10000
-  @limit = 100
+  @max_matches = 100
+  @limit = 10
   @offset = 0
   @query_offset = 0
   @total_found = 0
@@ -38,13 +42,16 @@ task br_news: :environment do
   # Method to post a request
   def request_board_reader(params, result = nil, total_found_first = nil)
     if (@query_offset % @max_matches == 0) && (@query_offset != 0)
+      puts "", "=================================================", ""
       print_total = total_found_first - @offset
       puts "Remaining Records: #{print_total}"
       @query_offset = 0
       @offset = 0
       date = result[:pubDate]
-      puts "filter_date_from is now: #{date}";
-      params[:filter_date_from] = date
+      puts "filter_date_from is now: #{date}: #{date.to_time.to_i}";
+      # params[:filter_date_from] = date.to_time.to_i
+      params[:dateto] = date.to_time.to_i
+      puts "", "=================================================", ""
     end
     # Make queary parameters for BoardReader
     board_reader_query = {
