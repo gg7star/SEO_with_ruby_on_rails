@@ -2,29 +2,25 @@ task br_news: :environment do
 
   puts''
   puts "Ticker?"
-  # @ticker = $stdin.gets.chomp.upcase
-  @ticker = "panda"
-
+  @ticker = $stdin.gets.chomp.upcase
+  
   puts''
   puts "Input search terms"
-  # @terms = $stdin.gets.chomp
-  @terms = "panda"
-
+  @terms = $stdin.gets.chomp
+  
   puts''
   puts "Input date from"
-  # @datefrom = Date.parse($stdin.gets.chomp).to_time.to_i
-  @datefrom = 1483225200
+  @datefrom = Date.parse($stdin.gets.chomp).to_time.to_i
   puts "@datefrom = #{@datefrom}"
 
   puts''
   puts "Input date to"
-  # @dateto = Date.parse($stdin.gets.chomp).to_time.to_i
-  @dateto = 1488495600
+  @dateto = Date.parse($stdin.gets.chomp).to_time.to_i
   puts "@dateto = #{@dateto}"
 
   # Initialize
-  @max_matches = 100
-  @limit = 10
+  @max_matches = 10000
+  @limit = 100
   @offset = 0
   @query_offset = 0
   @total_found = 0
